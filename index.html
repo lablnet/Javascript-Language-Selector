@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Language</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/LanguageSelector.min.js"></script>
+	<script src="locale.js"></script>
+</head>
+<body>
+	<select id="langSelector">
+		<option>:choose</option>
+		<option value="en">:english</option>
+		<option value="ur">:urdu</option>
+		<option value="pt">:portuguese</option>
+	</select>
+	<h1>:heading</h1>
+	<h3>:h2</h3>
+	<p>:first:p</p>
+</body>
+<script type="text/javascript">
+	var l = new LanguageSelector();
+	 $("#langSelector").change(function() {
+	     var s = $(this).children("option:selected").val();
+	     l.setLang(s);
+	     window.location = 'index.html';
+	 });
+	l.parse();
+</script>
+</html>
