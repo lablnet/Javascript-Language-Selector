@@ -9,6 +9,9 @@ Create your frontend website in multiple languages by using this class.
 - Super fast.
 - Much more...
 
+### Demo
+- [https://lablnet.github.io/Javascript-Language-Selector/](https://lablnet.github.io/Javascript-Language-Selector/)
+
 ### Requirement
 - Jquery
 
