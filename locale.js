@@ -10,12 +10,13 @@ lang = {
 	},
 
 	'ur': {
-		':heading': 'Javascript Language Selector',
-		':h2': 'This is the sub heading',
-		':first:p': "Hey! this is the javascript language selector",
-		':english': 'English',
-		':urdu': 'Urdu',
-		':portuguese': 'Portuguese'
+		':heading': 'جاوا اسکرپٹ زبان سلیکٹر',
+		':h2': 'یہ سب عنوان ہے۔',
+		':first:p': "ارے! یہ جاوا اسکرپٹ کی زبان کا سلیکٹر ہے۔",
+		':english': 'انگریزی',
+		':urdu': 'اردو',
+		':portuguese': 'پرتگالی',
+		':choose': 'زبان کا انتخاب کریں۔'
 	},
 	'pt': {
 		':heading': 'Seletor de Idiomas Javascript',
