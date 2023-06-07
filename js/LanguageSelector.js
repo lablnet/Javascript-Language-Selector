@@ -24,7 +24,7 @@ class LanguageSelector {
 		if (lang != null) {
 			return lang;
 		} else {
-			return 'en';
+			return (navigator.language || navigator.userLanguage).toLowerCase();
 		}
 	}
 	removeLang()
@@ -38,7 +38,7 @@ class LanguageSelector {
 		var l = this.getLang();
 		var strs = lang[l];
 
-		return strs;
+		return strs !== undefined ? strs : lang['en'];
 	}
 	parse()
 	{
